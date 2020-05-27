@@ -77,6 +77,37 @@ h3 {
 	background: #4aaaa5;
 }
 
+#logo:hover,
+input[type="submit"]:hover {
+	background: #5e7f7e;
+}
+
+nav a:hover {
+	color: #5e7f7e;
+}
+
+.social:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+.wrapper {
+	height: auto !important;
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto -105px;
+}
+
+footer,
+.push {
+	height: 105px;
+}
+
 nav {
 	float: right;
 	margin-top: 25px;
@@ -140,8 +171,8 @@ h2 {
 .work {
 	position: relative;
 	float: left;
-	width: 274px;
-	height: 250px;
+	width: 230px;
+	height: 210px;
 	margin: 20px 0 25px;
 	overflow: auto;
 }
@@ -152,6 +183,7 @@ h2 {
 
 .work img {
 	width: 100%;
+	height: 200px;
 	border: 0 none;
 	opacity: 0.8;
 }
