@@ -6,3 +6,11 @@ body {
 h1 {
 	color: yellow;
 }
+p {
+	color: red;
+}
+
+.wrapper {
+	margin: auto;
+	width: 50%;
+}
