@@ -9,8 +9,19 @@ h1 {
 p {
 	color: red;
 }
-
+/* #redship {
+	padding: 50px;
+} */
 .wrapper {
 	margin: auto;
 	width: 50%;
+}
+
+.galaxy {
+	margin-left: auto;
+	margin-right: auto;
+}
+.row {
+	display: flex;
+	flex-direction: row;
 }
