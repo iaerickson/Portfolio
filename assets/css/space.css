@@ -8,6 +8,7 @@ h1 {
 }
 p {
 	color: red;
+	bottom: auto;
 }
 .wrapper {
 	margin: auto;
@@ -79,7 +80,7 @@ p {
 	animation: planet 2400ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(2) {
-	transform: rotateZ(-20deg);
+	transform: rotateZ(-30deg);
 }
 #space .space_field_wrapper:nth-child(2) .space_field.satellite {
 	animation: orbit 2800ms linear infinite;
@@ -88,7 +89,7 @@ p {
 	animation: planet 2800ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(3) {
-	transform: rotateZ(-40deg);
+	transform: rotateZ(-60deg);
 }
 #space .space_field_wrapper:nth-child(3) .space_field.satellite {
 	animation: orbit 3200ms linear infinite;
@@ -97,7 +98,7 @@ p {
 	animation: planet 3200ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(4) {
-	transform: rotateZ(-60deg);
+	transform: rotateZ(-90deg);
 }
 #space .space_field_wrapper:nth-child(4) .space_field.satellite {
 	animation: orbit 3600ms linear infinite;
@@ -106,7 +107,7 @@ p {
 	animation: planet 3600ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(5) {
-	transform: rotateZ(-80deg);
+	transform: rotateZ(-120deg);
 }
 #space .space_field_wrapper:nth-child(5) .space_field.satellite {
 	animation: orbit 4000ms linear infinite;
@@ -115,7 +116,7 @@ p {
 	animation: planet 4000ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(6) {
-	transform: rotateZ(-100deg);
+	transform: rotateZ(-150deg);
 }
 #space .space_field_wrapper:nth-child(6) .space_field.satellite {
 	animation: orbit 4400ms linear infinite;
@@ -124,7 +125,7 @@ p {
 	animation: planet 4400ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(7) {
-	transform: rotateZ(-120deg);
+	transform: rotateZ(-180deg);
 }
 #space .space_field_wrapper:nth-child(7) .space_field.satellite {
 	animation: orbit 4800ms linear infinite;
@@ -133,7 +134,7 @@ p {
 	animation: planet 4800ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(8) {
-	transform: rotateZ(-140deg);
+	transform: rotateZ(-210deg);
 }
 #space .space_field_wrapper:nth-child(8) .space_field.satellite {
 	animation: orbit 5200ms linear infinite;
@@ -142,7 +143,7 @@ p {
 	animation: planet 5200ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(9) {
-	transform: rotateZ(-160deg);
+	transform: rotateZ(-240deg);
 }
 #space .space_field_wrapper:nth-child(9) .space_field.satellite {
 	animation: orbit 5600ms linear infinite;
@@ -151,7 +152,7 @@ p {
 	animation: planet 5600ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(10) {
-	transform: rotateZ(-180deg);
+	transform: rotateZ(-270deg);
 }
 #space .space_field_wrapper:nth-child(10) .space_field.satellite {
 	animation: orbit 6000ms linear infinite;
@@ -160,7 +161,7 @@ p {
 	animation: planet 6000ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(11) {
-	transform: rotateZ(-200deg);
+	transform: rotateZ(-300deg);
 }
 #space .space_field_wrapper:nth-child(11) .space_field.satellite {
 	animation: orbit 6400ms linear infinite;
@@ -169,7 +170,7 @@ p {
 	animation: planet 6400ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(12) {
-	transform: rotateZ(-220deg);
+	transform: rotateZ(-330coddeg);
 }
 #space .space_field_wrapper:nth-child(12) .space_field.satellite {
 	animation: orbit 6800ms linear infinite;
