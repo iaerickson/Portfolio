@@ -22,6 +22,9 @@ p {
 	transform-style: preserve-3d;
 	perspective: 700px;
 }
+/* #space .space_field.mother:hover {
+	animation: 0;
+} */
 #space .space_field {
 	position: absolute;
 	top: 50%;
@@ -49,6 +52,7 @@ p {
 	width: 100%;
 	height: 100%;
 }
+
 #space .space_field.satellite .planet {
 	left: 100%;
 	width: 50px;
@@ -170,7 +174,7 @@ p {
 	animation: planet 6400ms linear infinite;
 }
 #space .space_field_wrapper:nth-child(12) {
-	transform: rotateZ(-330coddeg);
+	transform: rotateZ(-330deg);
 }
 #space .space_field_wrapper:nth-child(12) .space_field.satellite {
 	animation: orbit 6800ms linear infinite;
