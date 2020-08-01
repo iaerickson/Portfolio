@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/spaceJam/bg_stars.gif");
 	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -22,9 +23,7 @@ p {
 	transform-style: preserve-3d;
 	perspective: 700px;
 }
-/* #space .space_field.mother:hover {
-	animation: 0;
-} */
+
 #space .space_field {
 	position: absolute;
 	top: 50%;
