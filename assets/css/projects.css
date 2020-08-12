@@ -2,8 +2,8 @@ body {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 34px;
-	color: #fad52e;
-	background: url("../images/spaceJam/about-bg.gif");
+	color: #fc1d00;
+	background: url("../images/spaceJam/bg-souvenirs.gif");
 }
 
 * {
@@ -35,14 +35,14 @@ h2,
 h3 {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-weight: 700;
-	color: #fad52e;
+	color: #fc1d00;
 }
 
 h1 {
 	padding-bottom: 20px;
 	font-size: 30px;
 	line-height: 49px;
-	border-bottom: 2px solid #ffbb00;
+	border-bottom: 2px solid #fc1d00;
 }
 
 h2,
@@ -150,7 +150,7 @@ h2 {
 	padding: 30px 30px 150px;
 	margin: 0 0 40px;
 	background: rgb(2, 2, 2, 0.6);
-	border: 1px solid #ffbb00;
+	border: 1px solid #fc1d00;
 }
 
 /* project page */
@@ -165,22 +165,28 @@ h2 {
 }
 
 .work img {
-	width: 100%;
-	height: inherit;
-	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 190px;
+	max-height: 190px;
+	width: auto;
+	height: auto;
 }
 
 .work h3 {
-	position: absolute;
+	position: inherit;
 	bottom: 20px;
-	width: 100%;
+	width: 190px;
 	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 0;
 	font-weight: 300;
 	line-height: 30px;
 	color: #ffffff;
 	text-align: center;
-	background: #ffbb00;
+	background: #fc1d00;
 	border-bottom: 0;
 }
 .work p {
@@ -190,6 +196,8 @@ h2 {
 	padding: 10px;
 	margin-top: 40px;
 	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
 	font-weight: 300;
 	line-height: 30px;
 	text-align: center;
