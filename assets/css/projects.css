@@ -147,6 +147,7 @@ h2 {
 	float: left;
 	width: 100%;
 	max-width: 960px;
+	height: 960px;
 	padding: 30px 30px 150px;
 	margin: 0 0 40px;
 	background: rgb(2, 2, 2, 0.6);
